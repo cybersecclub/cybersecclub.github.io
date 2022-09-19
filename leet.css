@@ -1,0 +1,122 @@
+fieldset {
+    right: 3em;
+    width: inherit;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: 1 / 1;
+    border: solid 0.25rem transparent;
+    border-radius: min(2vw, 30px);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    gap: 0;
+}
+
+.h1-logo {
+    position: relative;
+    width: 300px;
+    height: 260px;
+    /* font-family: 'Segoe UI' Arial; */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 8em;
+    font-stretch: semi-condensed;
+    padding: 0.1em 0.15em 0.1em 0.1em;
+    border: rgb(255, 255, 255) solid 10px;
+    border-radius: 0.5em;
+    background: rgb(250, 250, 250);
+    color: rgb(67, 164, 248);
+    text-align: right;
+    line-height: 0;
+    overflow: hidden;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: auto;
+}
+
+.p-logo {
+    position: inherit;
+    padding: 0;
+    margin: 0.5em 0 0.35em 0;
+    font-weight: bolder;
+    text-align: inherit
+}
+
+.p-logo {
+    text-shadow: 5px 5px rgb(16, 90, 154);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(16, 90, 154);
+}
+
+.p-rotate {
+    width: 130%;
+    display: inline-block;
+    margin: -0.3em 1em -0.3em -0.5em;
+    padding: 0.15em 0.75em 0 0;
+    border-top: 0.3em double white;
+    border-bottom: 0.3em double white;
+    color: rgb(188, 42, 42);
+    font-weight: 400;
+    font-size: 0.5em;
+    transform: rotate(-8deg);
+    line-height: 1.2;
+}
+
+.span-red-logo {
+    display: inline-block;
+    -webkit-transform: skew(-4deg, 0deg);
+    -moz-transform: skew(-4deg, 0deg);
+    -o-transform: skew(-4deg, 0deg);
+    -ms-transform: skew(-4deg, 0deg);
+    transform: skew(-4deg, 0deg);
+    letter-spacing: -0.05em;
+    font-smooth: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: auto;
+}
+
+.span-logo::before {
+    content: "";
+    width: 1.25em;
+    height: 1.25em;
+    border: 0.5rem solid rgb(67, 164, 248);
+    border-radius: 80px;
+    background: transparent;
+    position: absolute;
+    top: -10%;
+    left: -10%;
+}
+
+.span-logo {
+    display: inline-block;
+    font-style: normal;
+    transform: rotate(10deg);
+    margin: 0 10px 0 10px;
+    padding: 0;
+    width: 1em;
+    height: 1em;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' width='256' height='256' viewBox='0 0 256 256' xml:space='preserve'%3E%3Cdesc%3ECreated with Fabric.js 1.7.22%3C/desc%3E%3Cdefs%3E%3C/defs%3E%3Cg transform='translate(128 128) scale(0.87 0.87)' style=''%3E%3Cg style='stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;' transform='translate(-144.89999999999998 -144.90000000000003) scale(3.22 3.22)' %3E%3Cpath d='M 70.774 35.262 h -3.813 V 20.155 C 66.961 9.024 57.937 0 46.806 0 h -3.612 C 32.063 0 23.039 9.024 23.039 20.155 v 15.107 h -3.813 c -3.586 0 -6.493 2.907 -6.493 6.493 v 41.751 c 0 3.586 2.907 6.493 6.493 6.493 h 51.549 c 3.586 0 6.493 -2.907 6.493 -6.493 V 41.755 C 77.268 38.169 74.361 35.262 70.774 35.262 z M 48.548 62.731 v 9.575 c 0 1.959 -1.588 3.548 -3.548 3.548 s -3.548 -1.588 -3.548 -3.548 v -9.575 c -2.128 -1.395 -3.388 -4.003 -2.784 -6.845 c 0.519 -2.438 2.493 -4.405 4.932 -4.915 c 4.192 -0.876 7.883 2.299 7.883 6.337 C 51.483 59.578 50.314 61.573 48.548 62.731 z M 31.032 35.262 V 22.92 c 0 -8.244 6.683 -14.927 14.927 -14.927 c 7.185 0 13.009 5.824 13.009 13.009 v 14.26 H 31.032 z' style='stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;' transform=' matrix(1 0 0 1 0 0) ' stroke-linecap='round' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 0.8125em;
+}
+
+.span-logo::after {
+    content: "";
+    transform: rotate(-40deg);
+    width: 0.75em;
+    height: 0.2em;
+    background: rgb(67, 164, 248);
+    position: absolute;
+    top: 110%;
+    right: 80%;
+}
+
+@media only screen and (max-width: 1050px) {
+    #left-bar,
+    #main {
+        width: 100% !important;
+    }
+    #left-bar hr {
+        width: 327px;
+        margin: auto;
+        padding: 0.5em 0;
+    }
+}
